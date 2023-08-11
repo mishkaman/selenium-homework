@@ -61,5 +61,7 @@ public class WebElementsTest {
         WebElement nextElement = elementToFind.findElement(By.xpath("following-sibling::td[1]"));
         String nextElementText = nextElement.getText();
         System.out.println("Next element : " + nextElementText);
+
+        driver.quit();
     }
 }
