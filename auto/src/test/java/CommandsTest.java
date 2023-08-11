@@ -48,6 +48,7 @@ public class CommandsTest {
             System.out.println("Y coordinates aren't the same");
         }
 
+        //System.out.println(columnAY == columnBY);
 
     }
 }
