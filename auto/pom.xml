@@ -12,7 +12,7 @@
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-antlr-plugin</artifactId>
+                <artifactId>maven-docck-plugin</artifactId>
                 <configuration>
                     <source>18</source>
                     <target>18</target>
@@ -30,8 +30,16 @@
     <dependencies>
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
-            <artifactId>selenium-api</artifactId>
+            <artifactId>selenium-support</artifactId>
             <version>3.141.59</version>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-support</artifactId>
+            <version>3.141.59</version>
+            <scope>test</scope>
         </dependency>
 
         <dependency>
@@ -48,6 +56,7 @@
             <version>4.2.2</version>
         </dependency>
         <dependency>
+
 
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-chrome-driver</artifactId>

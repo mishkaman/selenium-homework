@@ -43,6 +43,17 @@
   }
 }</component>
   <component name="RunManager" selected="TestNG.WebElementsTest.hw2">
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CommandsTest.isInputFieldEnabled" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="auto" />
       <option name="PACKAGE_NAME" value="" />
