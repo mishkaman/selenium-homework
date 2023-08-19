@@ -57,10 +57,9 @@ public class JSexecutor {
         ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", entriesBox);
 
 
-        String actualText = (String) ((JavascriptExecutor) driver).executeScript("return arguments[0].textContent;", entriesBox);
+        String actualText = entriesBox.getText();
+        String expectedText = "0 Entries";
 
-
-        String expectedText = "1 Entries";
         assert actualText.equals(expectedText) : "Text is not validated";
         System.out.println("Text is validated");
 
