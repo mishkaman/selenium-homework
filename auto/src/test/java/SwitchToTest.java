@@ -17,7 +17,7 @@ public class SwitchToTest {
     }
 
     @Test
-    public void smth() throws InterruptedException {
+    public void smth4() throws InterruptedException {
         driver.get("http://the-internet.herokuapp.com/iframe");
 
         driver.switchTo().frame("mce_0_ifr");
@@ -57,7 +57,7 @@ public class SwitchToTest {
             Alert alert = driver.switchTo().alert();
             alert.accept();
         } catch (Exception e) {
-            System.out.println("No alert was present.");
+            System.out.println("No alerts");
         }
     }
 

@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ef5344e-05f7-4ee0-9f6d-01fdd0c00ff1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Exceptions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/JSexecutor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SwitchToTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SwitchToTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/SwitchToTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SwitchToTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +48,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.SwitchToTest.smth">
+  <component name="RunManager" selected="TestNG.Exceptions.NoAlertPresentExceptionExample">
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -54,11 +60,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SwitchToTest.smth" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Exceptions.NoAlertPresentExceptionExample" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="auto" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SwitchToTest" />
-      <option name="METHOD_NAME" value="smth" />
+      <option name="MAIN_CLASS_NAME" value="Exceptions" />
+      <option name="METHOD_NAME" value="NoAlertPresentExceptionExample" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -66,11 +72,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WebPageTest.testAlignCenterIcon" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Exceptions.StaleElementReferenceExceptionExample" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="auto" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="WebPageTest" />
-      <option name="METHOD_NAME" value="testAlignCenterIcon" />
+      <option name="MAIN_CLASS_NAME" value="Exceptions" />
+      <option name="METHOD_NAME" value="StaleElementReferenceExceptionExample" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -78,11 +84,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WebTablesTest.printHondaCarPrice" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Exceptions.smth4" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="auto" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="WebTablesTest" />
-      <option name="METHOD_NAME" value="printHondaCarPrice" />
+      <option name="MAIN_CLASS_NAME" value="Exceptions" />
+      <option name="METHOD_NAME" value="smth4" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -90,11 +96,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WebTablesTest.smth2" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="JSExecutorWithAssertions.testJSExecutorForScrolling" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="auto" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="WebTablesTest" />
-      <option name="METHOD_NAME" value="smth2" />
+      <option name="MAIN_CLASS_NAME" value="JSExecutorWithAssertions" />
+      <option name="METHOD_NAME" value="testJSExecutorForScrolling" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -102,11 +108,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test.testAlignCenterIcon" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="JSexecutor.smth3" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="auto" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="test" />
-      <option name="METHOD_NAME" value="testAlignCenterIcon" />
+      <option name="MAIN_CLASS_NAME" value="JSexecutor" />
+      <option name="METHOD_NAME" value="smth3" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -116,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.SwitchToTest.smth" />
-        <item itemvalue="TestNG.WebTablesTest.printHondaCarPrice" />
-        <item itemvalue="TestNG.test.testAlignCenterIcon" />
-        <item itemvalue="TestNG.WebPageTest.testAlignCenterIcon" />
-        <item itemvalue="TestNG.WebTablesTest.smth2" />
+        <item itemvalue="TestNG.Exceptions.NoAlertPresentExceptionExample" />
+        <item itemvalue="TestNG.Exceptions.StaleElementReferenceExceptionExample" />
+        <item itemvalue="TestNG.Exceptions.smth4" />
+        <item itemvalue="TestNG.JSexecutor.smth3" />
+        <item itemvalue="TestNG.JSExecutorWithAssertions.testJSExecutorForScrolling" />
       </list>
     </recent_temporary>
   </component>
