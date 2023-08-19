@@ -37,11 +37,14 @@ public class Exceptions {
         } catch (TimeoutException e) {
             System.out.println("TimeoutException occurred: " + e.getMessage());
         }
+        Thread.sleep(3000);
+
+        driver.quit();
 
 
     }
     @Test
-    public void NoAlertPresentExceptionExample() {
+    public void NoAlertPresentExceptionExample() throws InterruptedException {
         driver.get("https://demoqa.com/alerts");
         driver.manage().window().maximize();
 
@@ -58,9 +61,12 @@ public class Exceptions {
         } catch (NoAlertPresentException e) {
             System.out.println("NoAlertPresentException occurred: " + e.getMessage());
         }
+        Thread.sleep(3000);
+
+        driver.quit();
     }
     @Test
-    public void StaleElementReferenceExceptionExample() {
+    public void StaleElementReferenceExceptionExample() throws InterruptedException {
         driver.get("https://demoqa.com/alerts");
         driver.manage().window().maximize();
 
@@ -75,6 +81,9 @@ public class Exceptions {
         } catch (StaleElementReferenceException e) {
             System.out.println("StaleElementReferenceException occurred: " + e.getMessage());
         }
+        Thread.sleep(3000);
+
+        driver.quit();
     }
 }
 

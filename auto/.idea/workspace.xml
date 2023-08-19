@@ -5,14 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ef5344e-05f7-4ee0-9f6d-01fdd0c00ff1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Exceptions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/JSexecutor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SwitchToTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SwitchToTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/SwitchToTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SwitchToTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Exceptions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Exceptions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/JSexecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JSexecutor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Exceptions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Exceptions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/JSexecutor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/JSexecutor.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +45,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.Exceptions.NoAlertPresentExceptionExample">
+  <component name="RunManager" selected="TestNG.JSexecutor.smth3">
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -84,11 +81,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Exceptions.smth4" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Exceptions.TimeoutExceptionExample" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="auto" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Exceptions" />
-      <option name="METHOD_NAME" value="smth4" />
+      <option name="METHOD_NAME" value="TimeoutExceptionExample" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -96,11 +93,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JSExecutorWithAssertions.testJSExecutorForScrolling" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Exceptions.smth4" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="auto" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="JSExecutorWithAssertions" />
-      <option name="METHOD_NAME" value="testJSExecutorForScrolling" />
+      <option name="MAIN_CLASS_NAME" value="Exceptions" />
+      <option name="METHOD_NAME" value="smth4" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -122,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.JSexecutor.smth3" />
         <item itemvalue="TestNG.Exceptions.NoAlertPresentExceptionExample" />
+        <item itemvalue="TestNG.Exceptions.TimeoutExceptionExample" />
         <item itemvalue="TestNG.Exceptions.StaleElementReferenceExceptionExample" />
         <item itemvalue="TestNG.Exceptions.smth4" />
-        <item itemvalue="TestNG.JSexecutor.smth3" />
-        <item itemvalue="TestNG.JSExecutorWithAssertions.testJSExecutorForScrolling" />
       </list>
     </recent_temporary>
   </component>

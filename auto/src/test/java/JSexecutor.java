@@ -51,6 +51,7 @@ public class JSexecutor {
 
         driver.get("http://webdriveruniversity.com/Scrolling/index.html");
 
+        Thread.sleep(3000);
 
         WebElement entriesBox = driver.findElement(By.id("zone2-entries"));
         ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", entriesBox);
@@ -62,6 +63,10 @@ public class JSexecutor {
         String expectedText = "0 Entries";
         Assert.assertEquals(actualText, expectedText, "Text is not validated");
         System.out.println("Text is validated");
+
+        Thread.sleep(2000);
+
+        driver.quit();
     }
 
 
