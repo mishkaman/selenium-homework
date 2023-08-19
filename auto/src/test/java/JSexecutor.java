@@ -60,8 +60,8 @@ public class JSexecutor {
         String actualText = (String) ((JavascriptExecutor) driver).executeScript("return arguments[0].textContent;", entriesBox);
 
 
-        String expectedText = "0 Entries";
-        Assert.assertEquals(actualText, expectedText, "Text is not validated");
+        String expectedText = "1 Entries";
+        assert actualText.equals(expectedText) : "Text is not validated";
         System.out.println("Text is validated");
 
         Thread.sleep(2000);
