@@ -6,6 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
@@ -26,8 +27,6 @@ public class AutoComplete {
     public void smth4() throws InterruptedException {
         driver.get("https://www.google.com/");
 
-        WebDriverWait wait = new WebDriverWait(driver, 10);
-
 
         WebElement searchBox = driver.findElement(By.name("q"));
         searchBox.sendKeys("Automation");
@@ -44,11 +43,11 @@ public class AutoComplete {
 
         wantedOption.click();
 
+        Thread.sleep(2000);
 
-
-
-
-
-
+    }
+    @AfterTest
+    public void leave(){
+        driver.quit();
     }
 }

@@ -50,7 +50,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.C:/Users/mishk/Desktop/davaleba/selenium-homework/auto/testng.xml">
+  <component name="RunManager" selected="TestNG.AutoComplete.smth4">
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -120,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.AutoComplete.smth4" />
         <item itemvalue="TestNG.C:/Users/mishk/Desktop/davaleba/selenium-homework/auto/testng.xml" />
         <item itemvalue="TestNG.CrossBrowserTest.smth3" />
         <item itemvalue="TestNG.CrossBrowserTest (1)" />
         <item itemvalue="TestNG.CrossBrowserTest" />
-        <item itemvalue="TestNG.AutoComplete.smth4" />
       </list>
     </recent_temporary>
   </component>
