@@ -1,6 +1,7 @@
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.BeforeClass;
@@ -10,11 +11,13 @@ public class Exceptions {
     private WebDriver driver;
 
     @BeforeClass
-    public void setupdriver() {
+    public void setupDriver() {
         WebDriverManager.chromedriver().setup();
-        driver = new ChromeDriver();
-    }
 
+        ChromeOptions options = new ChromeOptions();
+        options.addArguments("--headless");
+        driver = new ChromeDriver(options);
+    }
     @Test
     public void TimeoutExceptionExample() throws InterruptedException {
         driver.get("https://demoqa.com/alerts");

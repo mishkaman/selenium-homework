@@ -39,7 +39,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.JSexecutor.smth3">
+  <component name="RunManager" selected="TestNG.C:/Users/mishk/Desktop/davaleba/selenium-homework/auto/testng.xml">
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -51,46 +51,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Exceptions.NoAlertPresentExceptionExample" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AutoComplete.smth4" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="auto" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Exceptions" />
-      <option name="METHOD_NAME" value="NoAlertPresentExceptionExample" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Exceptions.StaleElementReferenceExceptionExample" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="auto" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Exceptions" />
-      <option name="METHOD_NAME" value="StaleElementReferenceExceptionExample" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Exceptions.TimeoutExceptionExample" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="auto" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Exceptions" />
-      <option name="METHOD_NAME" value="TimeoutExceptionExample" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Exceptions.smth4" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="auto" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Exceptions" />
+      <option name="MAIN_CLASS_NAME" value="AutoComplete" />
       <option name="METHOD_NAME" value="smth4" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -99,10 +63,42 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JSexecutor.smth3" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C:/Users/mishk/Desktop/davaleba/selenium-homework/auto/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="auto" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CrossBrowserTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="auto" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="JSexecutor" />
+      <option name="MAIN_CLASS_NAME" value="CrossBrowserTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CrossBrowserTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="auto" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CrossBrowserTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CrossBrowserTest.smth3" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="auto" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CrossBrowserTest" />
       <option name="METHOD_NAME" value="smth3" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -113,11 +109,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.JSexecutor.smth3" />
-        <item itemvalue="TestNG.Exceptions.NoAlertPresentExceptionExample" />
-        <item itemvalue="TestNG.Exceptions.TimeoutExceptionExample" />
-        <item itemvalue="TestNG.Exceptions.StaleElementReferenceExceptionExample" />
-        <item itemvalue="TestNG.Exceptions.smth4" />
+        <item itemvalue="TestNG.C:/Users/mishk/Desktop/davaleba/selenium-homework/auto/testng.xml" />
+        <item itemvalue="TestNG.AutoComplete.smth4" />
+        <item itemvalue="TestNG.CrossBrowserTest.smth3" />
+        <item itemvalue="TestNG.CrossBrowserTest (1)" />
+        <item itemvalue="TestNG.CrossBrowserTest" />
       </list>
     </recent_temporary>
   </component>
