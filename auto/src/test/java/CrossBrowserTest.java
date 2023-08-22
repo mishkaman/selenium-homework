@@ -5,22 +5,31 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.interactions.Actions;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
 
 import java.util.List;
 
-public class JSexecutor {
+public class CrossBrowserTest {
     private WebDriver driver;
 
-    @BeforeClass
-    public void setupDriver() {
-        WebDriverManager.chromedriver().setup();
 
-        ChromeOptions options = new ChromeOptions();
-        options.addArguments("--headless"); // Run in headless mode
-        driver = new ChromeDriver(options);
+    @BeforeClass
+    @Parameters("browser")
+    public void setupDriver(String browser){
+        if (browser.equalsIgnoreCase("firefox")){
+            WebDriverManager.firefoxdriver().setup();
+            driver = new FirefoxDriver();
+            System.out.println("fireFox");
+        }
+        else if (browser.equalsIgnoreCase("chrome")){
+            WebDriverManager.chromedriver().setup();
+            driver = new ChromeDriver();
+            System.out.println("chrome");
+        }
     }
 
 
@@ -47,7 +56,7 @@ public class JSexecutor {
         }
 
 
-                ///////////////////////////////////////////////////////////
+        ///////////////////////////////////////////////////////////
 
 
 
@@ -69,6 +78,11 @@ public class JSexecutor {
 
         Thread.sleep(2000);
 
+
+    }
+
+    @AfterTest
+    public void leave(){
         driver.quit();
     }
 
@@ -79,5 +93,6 @@ public class JSexecutor {
 
 
 }
+
 
 
