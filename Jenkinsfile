@@ -19,12 +19,5 @@ pipeline {
       }
     }
 
-    stage('build') {
-      steps {
-        sh '''mvn compile test package
-'''
-      }
-    }
-
   }
 }
